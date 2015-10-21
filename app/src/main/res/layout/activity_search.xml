@@ -5,10 +5,10 @@
     tools:context=".SearchActivity">
 
     <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar"/>
+        android:id="@+id/toolbar_search"
+        layout="@layout/toolbar_search"/>
     <FrameLayout
-        android:layout_below="@id/toolbar"
+        android:layout_below="@id/toolbar_search"
         android:id="@+id/search_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

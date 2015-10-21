@@ -4,6 +4,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.View;
 import android.content.Intent;
 
@@ -21,17 +22,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FloatingActionButton floatingActionButton = (FloatingActionButton)
-                findViewById(R.id.floating_action_button);
-        floatingActionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
-                startActivity(intent);
-                overridePendingTransition(R.transition.activity_animation_open_search,
-                        R.transition.activity_animation_open_search_scale_alpha);
-            }
-        });
+
+        mFloatingActionButtonInitialization();
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
@@ -47,4 +39,20 @@ public class MainActivity extends AppCompatActivity {
                 .withSavedInstance(savedInstanceState)
                 .build();
     }
+
+
+    private void mFloatingActionButtonInitialization(){
+        FloatingActionButton floatingActionButton = (FloatingActionButton)
+                findViewById(R.id.floating_action_button);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.transition.activity_animation_open_search,
+                        R.transition.activity_animation_open_search_scale_alpha);
+            }
+        });
+    }
+
 }

@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <FrameLayout
+        android:layout_below="@id/toolbar"
+        android:id="@+id/drawer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id = "@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <!-- the layout which will be the content of the activity (which will be hosted inside the drawer (NOT the list of the drawer)) -->
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/fragment_main"
+                android:layout_margin = "0dp"
+                android:layout_width = "match_parent"
+                android:layout_height = "match_parent"
+                android:background="#FFE4B5">
+
+                <android.support.design.widget.FloatingActionButton
+                    android:id="@+id/floating_action_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="20dp"
+                    android:src="@drawable/ic_search_white_24dp"/>
+            </FrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>
+<!-- From: file:/E:/AlcoTaste/app/src/main/res/layout/activity_main.xml -->
