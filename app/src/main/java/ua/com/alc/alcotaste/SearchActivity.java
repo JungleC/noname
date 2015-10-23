@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 
 /**
  * Created by vanya on 16.10.2015.
@@ -15,6 +18,7 @@ import android.view.View;
 public class SearchActivity extends AppCompatActivity  {
     MenuItem mSearchItem = null;
     MenuItem mSortItem = null;
+    Menu mMenu = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,23 +40,34 @@ public class SearchActivity extends AppCompatActivity  {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
+        mMenu =  menu;
         getMenuInflater().inflate(R.menu.nemu_search_activity, menu);
         mSearchItem = menu.findItem(R.id.action_search);
-        mSortItem = menu.findItem(R.id.action_sort);
         MenuItemCompat.setOnActionExpandListener(mSearchItem, new MenuItemCompat.OnActionExpandListener() {
             @Override
             public boolean onMenuItemActionExpand(MenuItem item) {
-                mSortItem.setVisible(false);
-                return true;
+                if(item == mSearchItem) {
+                    mMenu.setGroupVisible(R.id.group_delete,false);
+                    return true;
+                }
+                return false;
             }
 
             @Override
             public boolean onMenuItemActionCollapse(MenuItem item) {
-                mSortItem.setVisible(true);
-                return true;
+                if(item == mSearchItem) {
+                    mMenu.setGroupVisible(R.id.group_delete, true);
+                    return true;
+                }
+                return false;
             }
         });
 
+        /*View sortItemView = mSortItem.getActionView();
+        YoYo.with(Techniques.Tada)
+                .duration(700)
+                .playOn(sortItemView);
+        */
         return super.onCreateOptionsMenu(menu);
     }
 

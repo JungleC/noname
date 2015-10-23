@@ -2,7 +2,24 @@
 
     <!-- Base application theme. -->
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
-          <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="actionOverflowButtonStyle">@style/OverFlow</item>-->
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryLight</item>
+        <item name="actionMenuTextColor">@color/colorPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryLight</item>
     </style>
 
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_sort_white_24dp</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#FFFFFF</item>
+    </style>
 </resources>

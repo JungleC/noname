@@ -2,25 +2,11 @@
 <items version="2" >
 
     <item
-        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.2.5\jars\classes.jar"
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="3e33417d80e79d82adb03a964540362d4e2ca5ef">
-        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-1a971ed0a9de907189efd23bdc1596754fdb1a5c.jar" />
-    </item>
-    <item
-        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-4b5964a7070f0d8d8a96f6aaa59ebe6b9cc560e3.jar" />
-    </item>
-    <item
-        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-6b4ea26452273be3d2cc10bf219780647363ed47.jar" />
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-ad52ca6639a7d4ee33b7b05b517e628d576d7152.jar" />
     </item>
     <item
         jar="C:\Users\vanya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
@@ -28,27 +14,6 @@
         revision="22.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
         <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-ca39fc26e6205f799244c53c95fd6611934ae37d.jar" />
-    </item>
-    <item
-        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\1.7.6\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ea05949390565bd6d714ac7d99158b3c0bc6a175">
-        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-0506a6584d24a1b3126161d4e5dc59bb5c8e21a0.jar" />
-    </item>
-    <item
-        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.3.4\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1206e4db22600d01a6de5c6569b04bf3296ce6de">
-        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-3d26d08b95da6072aa77d6b9caf33114252ed064.jar" />
-    </item>
-    <item
-        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-1e74372733b85317135d90901b78de22bd323753.jar" />
     </item>
     <item
         jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\jars\classes.jar"
@@ -63,6 +28,62 @@
         revision="22.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-b4553a7bc0357b62cac812ccb0283034e760aea9.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\1.7.6\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ea05949390565bd6d714ac7d99158b3c0bc6a175">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-0506a6584d24a1b3126161d4e5dc59bb5c8e21a0.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-1e74372733b85317135d90901b78de22bd323753.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-4b5964a7070f0d8d8a96f6aaa59ebe6b9cc560e3.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\4.3.4\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1206e4db22600d01a6de5c6569b04bf3296ce6de">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-3d26d08b95da6072aa77d6b9caf33114252ed064.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-6b4ea26452273be3d2cc10bf219780647363ed47.jar" />
+    </item>
+    <item
+        jar="C:\Users\vanya\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\library-2.4.0-c574ff9b1a853a871d27f8a3bacae8afc3b8907f.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.2.5\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3e33417d80e79d82adb03a964540362d4e2ca5ef">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-1a971ed0a9de907189efd23bdc1596754fdb1a5c.jar" />
+    </item>
+    <item
+        jar="E:\AlcoTaste\app\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="E:\AlcoTaste\app\build\intermediates\pre-dexed\debug\classes-4ceeedde68c5c371e3f21e239bc77f9d76f2776b.jar" />
     </item>
 
 </items>

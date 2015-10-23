@@ -1707,6 +1707,11 @@
         <item name="biv_drawCircularShadow">true</item>
         <item name="biv_selectorOnPress">@color/material_drawer_primary</item>
     </style>
+    <!-- From: file:/E:/AlcoTaste/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">#FFFFFF</item>
+    </style>
     <!-- From: file:/E:/AlcoTaste/app/build/intermediates/exploded-aar/com.mikepenz/materialize/0.2.5/res/values/values.xml -->
     <eat-comment/>
     <style name="Material.DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
@@ -2076,7 +2081,20 @@
     <!-- From: file:/E:/AlcoTaste/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
-          <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <!--<item name="actionOverflowButtonStyle">@style/OverFlow</item>-->
+
+        <!-- colorAccent is used as the default value for
+             colorControlActivated which is used to tint widgets. -->
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryLight</item>
+        <item name="actionMenuTextColor">@color/colorPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/colorPrimaryLight</item>
+    </style>
+    <style name="OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_sort_white_24dp</item>
     </style>
     <!-- From: file:/E:/AlcoTaste/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
